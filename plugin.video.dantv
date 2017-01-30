@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="true"?>
+
+<addon provider-name="cubicle" version="2.4.1" name="DANTV 2016" id="plugin.video.sdarot.tv"> 
+
+
+<requires>
+
+<import version="2.1.0" addon="xbmc.python"/>
+
+</requires>
+
+
+<extension library="dantv2016.blogspot.co.il" point="xbmc.python.pluginsource">
+
+<provides>video</provides>
+
+</extension>
+
+<extension library="service.py" point="xbmc.service" start="startup"/>
+
+
+<extension point="xbmc.addon.metadata">
+
+<platform>all</platform>
+
+<minversion>31632</minversion>
+
+<summary lang="en">Watch Sdarot.tv video contents.</summary>
+
+<summary lang="he">סדרות מתוך האתר dantv</summary>
+
+<description lang="en">Watch the many TV series available on dantv</description>
+
+<description lang="he">צפיה בסדרות (הרבות) שיש באתר dantv</description>
+
+<disclaimer>This addon parsees their website, you should check their TOS before you using. It's as is</disclaimer>
+
+
+<supportedcontent>
+
+<content>tvshows</content>
+
+</supportedcontent>
+
+</extension>
+
+</addon>
